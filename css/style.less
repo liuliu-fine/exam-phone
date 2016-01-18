@@ -1,0 +1,94 @@
+/*
+@name: 考试页面样式
+@author: 马仁清
+*/
+// @import "libs/reset"; //有amazeui框架的话不需要这个了
+@import "libs/elements";
+
+@noodle-white : #FFFFFF;
+@noodle-gray : #EBEBEB;
+@noodle-blue : #3497DA;
+@noodle-black : #000000;
+@primary-color : @noodle-blue;
+
+/* 颜色相关 */
+.noodles-bg-white {
+  background-color: @noodle-white;
+}
+
+.noodles-bg-gray-import {
+  background-color: @noodle-gray !important;
+}
+
+.noodles-bg-gray {
+  background-color: @noodle-gray;
+}
+
+.noodles-bg-primary {
+  background-color: @primary-color;
+}
+
+.noodles-text-primary {
+  color: @primary-color;
+}
+
+.noodles-text-white {
+  color: @noodle-white;
+}
+
+/* 选项的icon */
+.noodles-option-icon(@background-color, @color, @border-width) {
+  background-color: @background-color;
+  display: inline-block;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.8em;
+  color: @color;
+  border: @border-width solid @primary-color;
+}
+
+//新版
+
+.noodles-option-number-checked {
+  .noodles-option-icon(@primary-color,@noodle-white, 0px);
+}
+
+.noodles-option-number {
+  .noodles-option-icon(@noodle-white, @noodle-black, 1px);
+}
+
+.noodles-option-icon-checked {
+  .noodles-option-icon(@primary-color, @noodle-white, 0px);
+}
+
+.noodles-option-icon {
+  .noodles-option-icon(@noodle-gray, @noodle-black, 1px);
+}
+
+.noodles-multi-option-icon(@background-color, @color, @border-width) {
+  background-color: @background-color;
+  display: inline-block;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 0.4em;
+  text-align: center;
+  line-height: 1.8em;
+  color: @color;
+  border: @border-width solid @primary-color;
+}
+
+.noodles-multi-option-icon-checked {
+  .noodles-multi-option-icon(@primary-color, @noodle-white, 0px);
+}
+
+.noodles-multi-option-icon {
+  .noodles-multi-option-icon(@noodle-gray, @noodle-black, 1px);
+}
+
+
+
+
+
+

@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- WEB META START -->
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <!-- WEB META END -->
+    <!-- SEO META START -->
+    <meta name="keywords" content="考试 招聘 个人信息"/>
+    <meta name="description" content=""/>
+    <!-- SEO META END -->
+
+    <!-- mobile META START -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 屏幕禁止缩放-->
+    <meta content="telephone=no" name="format-detection"/>
+    <!-- 忽略数字自动识别为电话号码 -->
+    <meta content="email=no" name="format-detection"/>
+    <!-- 忽略识别邮箱 -->
+    <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
+    <!-- 添加智能 App 广告条 Smart App Banner：告诉浏览器这个网站对应的app，并在页面上显示下载banner -->
+    <title>答题</title>
+
+    <!-- mobile META END -->
+    <link rel="shortcut icon" href="../css/images/favicon.ico">
+    <!-- Global styles START -->
+    <link href="../js/libs/AmazeUI-2.5.0/css/amazeui.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../js/libs/Swiper-3.2.7/css/swiper.min.css">
+    <link href="../css/style.css" rel="stylesheet">
+    <!-- Global styles END -->
+</head>
+
+<style>
+
+</style>
+<body>
+
+<!-- BEGIN MAIN -->
+<div class="am-g noodles-bg-white am-padding-vertical-sm am-text-primary am-header-fixed">
+    <div class="am-u-sm-5 am-text-xs am-text-left">MBTI性格测试题</div>
+    <div class="am-u-sm-3 am-text-xs am-text-center">
+        <!-- 填入秒数 -->
+        <span id="timeCountdown">400</span>
+    </div>
+    <div class="am-u-sm-4 am-text-xs am-text-right">
+        <span id="pagination" class="am-btn-primary am-padding-horizontal-xs am-radius">19/20</span>
+    </div>
+</div>
+<form id="submitForm" action="javascript:void(0)" class="am-margin-top-sm">
+    <div class="swiper-container ">
+        <div class="swiper-wrapper">
+            <!-- 题目开始-->
+            <div class="swiper-slide am-text-sm am-padding" data-question-id="1">
+
+                <div class="am-margin-vertical-lg">当你遇到新朋友时，你</div>
+                <div class="am-padding-bottom-sm" data-option-id="1">A. 说话的时间与聆听的时间相当。</div>
+                <div class="am-u-sm-12  am-text-lg am-margin-bottom-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+                <div class="am-padding-vertical-sm" data-option-id="2">B. 聆听的时间会比说话的时间多。</div>
+
+                <div class="am-u-sm-12 am-text-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 题目结束-->
+            <!-- 题目开始-->
+            <div class="swiper-slide am-text-sm am-padding" data-question-id="1">
+
+                <div class="am-margin-vertical-lg">下列哪一种是你的一般生活取向？</div>
+                <div class="am-padding-bottom-sm" data-option-id="1">A. 只管做吧。</div>
+                <div class="am-u-sm-12  am-text-lg am-margin-bottom-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+                <div class="am-padding-vertical-sm" data-option-id="2">B. 找出多种不同选择。</div>
+
+                <div class="am-u-sm-12 am-text-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 题目结束-->
+            <!-- 题目开始-->
+            <div class="swiper-slide am-text-sm am-padding" data-question-id="1">
+
+                <div class="am-margin-vertical-lg">你喜欢自己的哪种性格？</div>
+                <div class="am-padding-bottom-sm" data-option-id="1">A. 冷静而理性。</div>
+                <div class="am-u-sm-12  am-text-lg am-margin-bottom-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+                <div class="am-padding-vertical-sm" data-option-id="2">B. 热情而体谅。</div>
+
+                <div class="am-u-sm-12 am-text-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 题目结束-->
+            <!-- 题目开始-->
+            <div class="swiper-slide am-text-sm am-padding" data-question-id="1">
+
+                <div class="am-margin-vertical-lg">你擅长</div>
+                <div class="am-padding-bottom-sm" data-option-id="1">A. 在有需要时间时同时协调进行多项工作。</div>
+                <div class="am-u-sm-12  am-text-lg am-margin-bottom-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+                <div class="am-padding-vertical-sm" data-option-id="2">B. 专注在某一项工作上，直至把它完成为止。</div>
+
+                <div class="am-u-sm-12 am-text-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 题目结束-->
+            <!-- 题目开始-->
+            <div class="swiper-slide am-text-sm am-padding" data-question-id="1">
+
+                <div class="am-margin-vertical-lg">你参与社交聚会时</div>
+                <div class="am-padding-bottom-sm" data-option-id="1">A. 总是能认识新朋友。</div>
+                <div class="am-u-sm-12  am-text-lg am-margin-bottom-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+                <div class="am-padding-vertical-sm" data-option-id="2">B. 只跟几个亲密挚友呆在一起。</div>
+
+                <div class="am-u-sm-12 am-text-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 题目结束-->
+            <!-- 题目开始-->
+            <div class="swiper-slide am-text-sm am-padding" data-question-id="1">
+
+                <div class="am-margin-vertical-lg">当你尝试了解某些事情时，一般你会</div>
+                <div class="am-padding-bottom-sm" data-option-id="1">A. 先要了解细节。</div>
+                <div class="am-u-sm-12  am-text-lg am-margin-bottom-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+                <div class="am-padding-vertical-sm" data-option-id="2">B. 先了解整体情况，细节容后再谈。</div>
+
+                <div class="am-u-sm-12 am-text-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 题目结束-->
+            <!-- 题目开始-->
+            <div class="swiper-slide am-text-sm am-padding" data-question-id="1">
+
+                <div class="am-margin-vertical-lg">你对下列哪方面较感兴趣？</div>
+                <div class="am-padding-bottom-sm" data-option-id="1">A. 知道别人的想法。</div>
+                <div class="am-u-sm-12  am-text-lg am-margin-bottom-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+                <div class="am-padding-vertical-sm" data-option-id="2">B. 知道别人的感受。</div>
+
+                <div class="am-u-sm-12 am-text-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 题目结束-->
+            <!-- 题目开始-->
+            <div class="swiper-slide am-text-sm am-padding" data-question-id="1">
+
+                <div class="am-margin-vertical-lg">你较喜欢下列哪个工作？</div>
+                <div class="am-padding-bottom-sm" data-option-id="1">A. 能让你迅速和即时做出反应。</div>
+                <div class="am-u-sm-12  am-text-lg am-margin-bottom-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+                <div class="am-padding-vertical-sm" data-option-id="2">B. 能让你定出目标，然后逐步达成目标的工作。</div>
+
+                <div class="am-u-sm-12 am-text-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 题目结束-->
+            <!-- 题目开始-->
+            <div class="swiper-slide am-text-sm am-padding" data-question-id="1">
+
+                <div class="am-margin-vertical-lg">下列哪一种说法较适合你？</div>
+                <div class="am-padding-bottom-sm" data-option-id="1">A. 当我与友人尽兴后，我会感到精力充沛，并会继续追求这种欢娱。</div>
+                <div class="am-u-sm-12  am-text-lg am-margin-bottom-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+                <div class="am-padding-vertical-sm" data-option-id="2">B. 当我与友人尽兴后，我会感到疲累，觉得需要一些空间。</div>
+
+                <div class="am-u-sm-12 am-text-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 题目结束-->
+            <!-- 题目开始-->
+            <div class="swiper-slide am-text-sm am-padding" data-question-id="1">
+
+                <div class="am-margin-vertical-lg">下列哪一种说法较适合你？</div>
+                <div class="am-padding-bottom-sm" data-option-id="1">A. 我较有兴趣知道别人的经历，例如他们做过什么？认识什么人？</div>
+                <div class="am-u-sm-12  am-text-lg am-margin-bottom-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+                <div class="am-padding-vertical-sm" data-option-id="2">B. 我较有兴趣知道别人的计划和梦想，例如他们会往哪里去？憧憬什么？</div>
+
+                <div class="am-u-sm-12 am-text-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 题目结束-->
+            <!-- 题目开始-->
+            <div class="swiper-slide am-text-sm am-padding" data-question-id="1">
+
+                <div class="am-margin-vertical-lg">下列哪一种说法较适合你？</div>
+                <div class="am-padding-bottom-sm" data-option-id="1">A. 我擅长订出一些可行的计划。</div>
+                <div class="am-u-sm-12  am-text-lg am-margin-bottom-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+                <div class="am-padding-vertical-sm" data-option-id="2">B. 我擅长促成别人同意一些计划，并衷力合作。</div>
+
+                <div class="am-u-sm-12 am-text-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 题目结束-->
+            <!-- 题目开始-->
+            <div class="swiper-slide am-text-sm am-padding" data-question-id="1">
+
+                <div class="am-margin-vertical-lg">下列哪一种说法较适合你？</div>
+                <div class="am-padding-bottom-sm" data-option-id="1">A. 我会突然尝试做某些事，看看会有什么事情发生。</div>
+                <div class="am-u-sm-12  am-text-lg am-margin-bottom-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+                <div class="am-padding-vertical-sm" data-option-id="2">B. 我尝试做任何事前，都想事先知道可能有什么事情发生。</div>
+
+                <div class="am-u-sm-12 am-text-lg">
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">0</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">1</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">2</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">3</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">4</div>
+                    </div>
+                    <div class="am-u-sm-2 am-padding-0">
+                        <div class="noodles-option-number">5</div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 题目结束-->
+
+        </div>
+    </div>
+</form>
+<div class="am-modal am-modal-confirm" tabindex="-1" id="confirmModal">
+    <div class="am-modal-dialog">
+        <div class="am-modal-bd">
+            你已完成所有测试题，是否提交?
+        </div>
+        <div class="am-modal-footer">
+            <span class="am-modal-btn" data-am-modal-cancel>取消</span>
+            <span class="am-modal-btn" data-am-modal-confirm>确定</span>
+        </div>
+    </div>
+</div>
+
+<!-- END MAIN -->
+
+<!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
+<script src="../js/jquery.min.js" type="text/javascript"></script>
+<script src="../js/libs/AmazeUI-2.5.0/js/amazeui.min.js" type="text/javascript"></script>
+
+<!-- END CORE PLUGINS -->
+
+<!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
+<script src="../js/scripts/exam/career-submit.js" type="text/javascript"></script>
+<script src="../js/libs/Swiper-3.2.7/js/swiper.min.js" type="text/javascript"></script>
+<script src="../js/libs/jquery-countdown-2.1.0/jquery.countdown.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(function () {
+        CareerSubmit.init();
+    });
+</script>
+<!-- END PAGE LEVEL JAVASCRIPTS -->
+
+</body>
+</html>

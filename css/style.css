@@ -1,0 +1,90 @@
+/*
+@name: 考试页面样式
+@author: 马仁清
+*/
+/* 颜色相关 */
+.noodles-bg-white {
+  background-color: #FFFFFF;
+}
+.noodles-bg-gray-import {
+  background-color: #EBEBEB !important;
+}
+.noodles-bg-gray {
+  background-color: #EBEBEB;
+}
+.noodles-bg-primary {
+  background-color: #3497DA;
+}
+.noodles-text-primary {
+  color: #3497DA;
+}
+.noodles-text-white {
+  color: #FFFFFF;
+}
+/* 选项的icon */
+.noodles-option-number-checked {
+  background-color: #3497DA;
+  display: inline-block;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.8em;
+  color: #FFFFFF;
+  border: 0px solid #3497DA;
+}
+.noodles-option-number {
+  background-color: #FFFFFF;
+  display: inline-block;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.8em;
+  color: #000000;
+  border: 1px solid #3497DA;
+}
+.noodles-option-icon-checked {
+  background-color: #3497DA;
+  display: inline-block;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.8em;
+  color: #FFFFFF;
+  border: 0px solid #3497DA;
+}
+.noodles-option-icon {
+  background-color: #EBEBEB;
+  display: inline-block;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.8em;
+  color: #000000;
+  border: 1px solid #3497DA;
+}
+.noodles-multi-option-icon-checked {
+  background-color: #3497DA;
+  display: inline-block;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 0.4em;
+  text-align: center;
+  line-height: 1.8em;
+  color: #FFFFFF;
+  border: 0px solid #3497DA;
+}
+.noodles-multi-option-icon {
+  background-color: #EBEBEB;
+  display: inline-block;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 0.4em;
+  text-align: center;
+  line-height: 1.8em;
+  color: #000000;
+  border: 1px solid #3497DA;
+}
